@@ -1,0 +1,18 @@
+#main {
+  border-style: groove;
+  position: relative;
+  margin: 15px;
+}
+
+#main > p {
+  color: blue;
+}
+.inside-para {
+  color: red;
+}
+#main > p:nth-child(2) {
+  background-color: rgb(219, 212, 212);
+}
+.title {
+  color: red;
+}
