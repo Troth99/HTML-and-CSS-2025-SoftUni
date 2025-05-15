@@ -1,0 +1,55 @@
+.navigation > section > ul {
+  margin: 15px;
+  margin-top: 20px;
+}
+.home a {
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: none;
+  font-size: 17px;
+}
+.about a {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgb(46, 46, 243);
+}
+
+.services a {
+  font-size: 17px;
+  color: rgb(46, 46, 243);
+  text-decoration: none;
+  font-style: italic;
+}
+#main > section > .title {
+  font-size: 30px;
+}
+.title::before {
+  content: ">>";
+  color: rgb(133, 5, 5);
+  font-size: 30px;
+  padding-right: 10px;
+  text-shadow: 2px 0 currentColor;
+}
+.title::after {
+  content: "<<";
+  color: rgb(133, 5, 5);
+  font-size: 30px;
+  padding-left: 10px;
+  text-shadow: 2px 0 currentColor;
+}
+
+.content > p:first-child {
+  background-color: rgb(165, 231, 231);
+}
+.content > p:nth-child(2) {
+  background-color: rgb(165, 231, 231);
+}
+
+#image img {
+  width: 650px;
+  height: 550px;
+  border-style: solid;
+  border-color: red;
+  padding: 10px;
+  background-color: red;
+}
