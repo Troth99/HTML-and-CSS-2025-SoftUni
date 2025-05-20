@@ -1,0 +1,13 @@
+#content > article h2 + time,
+#content > article time + p,
+#content > article time + a,
+#content > aside > h3,
+#content > aside h3 + p {
+  font-size: 1.1em;
+}
+
+nav > ul > li a,
+#content > article a,
+#content > aside > ul > li > a {
+  color: blue;
+}

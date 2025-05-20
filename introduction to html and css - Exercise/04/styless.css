@@ -1,0 +1,28 @@
+* {
+  margin-top: 5px;
+}
+
+article h2 {
+  font-weight: bolder;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px black;
+}
+
+article span {
+  font-weight: bold;
+  text-shadow: 1px 0px 0px rgb(160, 159, 159);
+}
+article time {
+  font-style: italic;
+}
+article header p  {
+  color: gray;
+  font-size: 1.2em;
+}
+
+article header ~ p {
+    text-shadow: 1px 0px 0px black;
+    font-size: 1.2em;
+}
+
+

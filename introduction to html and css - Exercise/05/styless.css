@@ -1,0 +1,12 @@
+header p {
+  font-size: 1.2em;
+}
+header p span,
+#content header p + span {
+  font-weight: bold;
+}
+
+#content article > p,
+#content > p {
+  font-size: 1.2em;
+}

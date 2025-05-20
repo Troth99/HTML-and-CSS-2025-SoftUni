@@ -1,0 +1,9 @@
+* {
+  margin: 1px;
+  padding: 1px;
+}
+
+div.container  img {
+  width: 450px;
+  height: 600px;
+}
