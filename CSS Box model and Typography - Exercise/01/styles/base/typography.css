@@ -1,0 +1,55 @@
+html {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body, input, textarea, button, select, option {
+    font: inherit;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    line-height: 1.1;
+}
+
+h1 {font-size: 2em}
+h2 {font-size: 1.8em}
+h3 {font-size: 1.6em}
+h4 {font-size: 1.4em}
+h5 {font-size: 1.2em}
+h6 {font-size: 1em}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+}
+
+ul li, ol li {
+    padding-bottom:  0.3em;
+}
+
+blockquote {
+    margin-left: 3em ;
+    border-left: 2px solid #CCC;
+    padding: 2em;
+}
+
+blockquote > p {
+    font-style: italic;
+}
+blockquote > p:nth-child(3){
+    margin-left: 98%;
+}
+
+blockquote p:last-child {
+    padding: 0;
+}
