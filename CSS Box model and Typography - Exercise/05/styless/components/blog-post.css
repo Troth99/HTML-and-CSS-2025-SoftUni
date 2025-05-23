@@ -1,0 +1,23 @@
+div.site {
+  border: 3px solid #eee;
+  padding: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 100%;
+}
+
+div.site :first-child {
+    margin-top: 0;
+}
+
+.site :nth-child(2) > :first-child {
+    font-weight: bold;
+}
+footer {
+    font-style: italic;
+}
+footer > time,
+footer > span {
+    font-weight: bold;
+}
+

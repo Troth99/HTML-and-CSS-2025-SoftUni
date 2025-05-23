@@ -1,0 +1,22 @@
+div.site {
+    --size-padding-inline: 0.7em;
+    border: 1px solid #eee;
+      
+}
+.more-details {
+     border: 1px solid #eee;
+     padding: 1.3em;
+}
+
+.more-details > summary {
+    padding-inline: var(--size-padding-inline);
+    font-weight: bold;
+    padding-left: 0em;
+}
+.more-details[open] > summary{
+    padding-bottom: 1em;
+}
+
+.site p:last-child{
+    padding: 0;
+}
