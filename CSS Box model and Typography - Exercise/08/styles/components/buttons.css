@@ -1,0 +1,72 @@
+body {
+    padding: 2em;
+}
+.buttons-with-link h5{
+    margin-bottom: 2em;
+}
+.buttons-with-link a{
+    text-decoration: none;
+    padding: 1.2em;
+    margin-right: 1.3em;
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+    opacity: 0.7em;
+    color: black;
+    box-shadow: 2px 2px 2x #e6e6e6;
+}
+.buttons-with-link :nth-child(2){
+    background-color: #d8d8d8;
+}
+.buttons-with-link :nth-child(3){
+    background-color: #ff9b00;
+}
+.buttons-with-link :nth-child(4){
+    background-color: #f7f7a9;
+}
+.buttons-with-link :nth-child(5){
+    background-color: #ffffff;
+}
+.buttons-with-link :last-child{
+    background-color: #d8d8d8;
+}
+
+
+.buttons-without-link h5 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.buttons-without-link button{
+    text-decoration: none;
+    padding: 1.2em;
+    margin-right: 1.3em;
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+    opacity: 0.7em;
+    color: black;
+    box-shadow: 2px 2px 2x #e6e6e6;
+}
+
+.buttons-without-link :nth-child(2){
+    background-color: #d8d8d8;
+}
+.buttons-without-link :nth-child(3){
+    background-color: #ff9b00;
+}
+.buttons-without-link :nth-child(4){
+    background-color: #f7f7a9;
+}
+.buttons-without-link :nth-child(5){
+    background-color: #ffffff;
+}
+.buttons-without-link :last-child{
+    background-color: #d8d8d8;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+/*Remove every default margin and padding on the site*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* box sizing rules */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+/*setup for image files*/

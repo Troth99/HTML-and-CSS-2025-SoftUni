@@ -1,0 +1,25 @@
+body {
+  padding: 2em;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
+
+.social-media {
+  display: block;
+  margin-top: 0;
+  margin-left: 5em;
+  font-size: 2em;
+  border: 1px solid black;
+  max-width: fit-content;
+  padding: 1em;
+}
+
+.social-media > i {
+  background-color: rgb(235 235 235);
+  padding: 0.4em;
+  border-radius: 50%;
+}
