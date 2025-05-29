@@ -1,0 +1,15 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    height: 250px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid black;
+}

@@ -1,0 +1,20 @@
+.custom-order > div:first-child {
+    order: 5;
+}
+.custom-order > div:nth-child(2) {
+    order: 3;
+}
+.custom-order > div:nth-child(3) {
+    order: 1;
+}
+
+.custom-order > div:nth-child(4) {
+    order: 6;
+}
+.custom-order > div:nth-child(5) {
+    order: 2;
+}
+.custom-order > div:last-child {
+    order: 4;
+}
+

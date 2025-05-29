@@ -1,0 +1,16 @@
+.flex-basis-5em > .flex-item{
+    flex-basis: 5em;
+}
+.flex-shrink-zero > .flex-item{
+    flex-shrink: 0;
+    flex-basis: 8em;
+    max-width: 10em;
+}
+.flex-grow-one {
+     width: 900px;
+}
+.flex-grow-one > .flex-item{
+    flex-basis: 5em;
+    flex-grow: 1;
+   
+}
