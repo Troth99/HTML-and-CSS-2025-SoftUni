@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2em;
+}
+
+h1 {
+  margin-bottom: 1.3em;
+}
+
+section h2 {
+  margin-bottom: 1.1em;
+}
+
+section > h2 {
+  margin-top: 1.1em;
+}
+
+div.nowrap {
+  border: 2px solid blue;
+  width: 400px;
+  display: flex;
+  padding: 1em;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  border: 2px solid black;
+  padding: 1.1em;
+  background: #eee;
+}
+
+div.wrap {
+  border: 2px solid blue;
+  width: 400px;
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+div.nowrap-reverse {
+  border: 2px solid blue;
+  width: 400px;
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap-reverse;
+}
