@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+}
+.navigation {
+  max-width: 100%;
+  display: flex;
+  border: 1.3px solid #ccc;
+  margin: 2em;
+  padding: 1em;
+  background-color: #eeeeee;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+  flex-wrap: wrap;   
+}
+.navigation li,
+.navigation a {
+  display: block;
+}
+.navigation > ul {
+  display: flex;
+  gap: 0.5em;
+    flex: 1 1 60%; 
+}
+.navigation,
+.navigation a {
+  border-radius: 0.3em;
+}
+.navigation a {
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 0.5em 1.4em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+  color: #ff8c00;
+}
+
+.navigation li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  display: none;
+  gap: 0.5em;
+  padding-top: 5px;
+  z-index: 10;
+  
+}
+.navigation li ul li a {
+  background-color: white; 
+    white-space: nowrap;
+}
+
+.navigation li {
+  position: relative;
+  padding: 0.2em;
+}
+.navigation li ul li ul {
+  top: 0;
+  left: 100%;
+  padding: 0 0 0 0.3em;
+}
+
+.navigation li:hover > .submenu {
+  display: flex;
+}
+.navigation a:hover {
+  background-color: #5e5c5c;
+  color: white;
+  border-color: #444;
+}
+.navigation a {
+  transition: all 0.3s ease;
+}
+
