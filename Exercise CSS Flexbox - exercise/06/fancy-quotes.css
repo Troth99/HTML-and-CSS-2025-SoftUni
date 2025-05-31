@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+body {
+  background: #eee;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+.site {
+    display: flex;
+    gap: 2em;
+}
+
+.site .main {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+
+.site .aside {
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+p {
+    opacity: 0.6;
+    padding-bottom: 1.5em;
+}
+.site .card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 1.4em;
+    display: flex;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    align-items: center;
+}
+.site h3 {
+    order: 999;
+}
+.site .aside >* {
+    flex-grow: 1;
+}
+
+.site .card svg {
+    width: 3em;
+}
+
+.card .avatar {
+    flex:  0 0 15ch;
+    background: green;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+}
+
+.site .aside .card {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.site .aside .card .avatar {
+    flex-basis: 12ch;
+    margin-top: 2em;
+}
