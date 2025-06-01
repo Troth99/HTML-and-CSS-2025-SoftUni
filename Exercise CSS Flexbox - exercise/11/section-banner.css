@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+body {
+  background-color: #ccc;
+  margin: 2em auto;
+  max-width: 125ch;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 2px solid #fff;
+  padding: 1em 1.5em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+}
+.content h3 {
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.content p {
+  padding: 0.5em 0;
+  opacity: 0.8;
+}
+
+.content h1 {
+    font-size: 2em;
+}
+.content .text {
+    flex: 1 1 50ch;
+}
+.buttons {
+  display: flex;
+  gap: 1.2em;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+.buttons a {
+  text-decoration: none;
+  border: 1px solid inherit;
+  border-radius: 0.3em;
+  padding: 0.5em 1.4em;
+}
+
+.buttons :first-child {
+  background: #663399;
+  color: white;
+}
+
+.buttons :nth-child(2) {
+  background: #ccc;
+  color: black;
+}
+
+
+.image {
+  border: 1px solid #aaa;
+  flex: 0 0 35ch;
+  height: 25ch;
+  background: #ccc;
+  border-radius: 0.3em;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.buttons a:active {
+  background-color: green;
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}

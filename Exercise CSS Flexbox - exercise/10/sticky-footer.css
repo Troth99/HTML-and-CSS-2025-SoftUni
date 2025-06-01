@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid green;
+}
+body {
+     height: 100%;
+   display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 2em;
+}
+.content header,
+.content main,
+.content footer {
+    border: 2px solid blue;
+    padding: 1em;
+}
+
+.content * {
+    padding: 1em;
+}
+.content main {
+    flex: 1;
+}
