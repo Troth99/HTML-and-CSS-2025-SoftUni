@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 15em auto;
+  background: #ccc;
+}
+.keyboard {
+  background: #dddddd;
+  border: 2px solid #b8b4b4;
+  border-radius: 0.5em;
+  box-shadow: 0 0.3em 0 0 rgb(0, 0, 0, 0.5);
+}
+
+.keyboard .row,
+.keyboard .row-special {
+  display: flex;
+  padding: 0.5em 1em;
+  gap: 1.4em;
+}
+
+.keyboard .row div,
+.keyboard .row-special div {
+  border: 1px solid #c0b1b1;
+  padding: inherit;
+  box-shadow: 0 0.1em 0 0 rgb(0, 0, 0, 0.5);
+  border-radius: 0.3em;
+}
+
+.keyboard .row:not(:first-child) .key {
+  background-color: white;
+  padding: 1em 1.3em;
+}
+.keyboard :first-child {
+  padding-top: 1.5em;
+}
+.keyboard :last-child {
+  padding-bottom: 1.5em;
+}
+
+.keyboard div:first-child .key {
+  padding: 0.7em 1.22em;
+}
+
+.keyboard .special-key-back {
+  flex: 1 0 auto;
+  text-align: center;
+}
+.keyboard .special-key-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+.keyboard .special-key-capslock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.2 0 auto;
+}
+
+.keyboard .special-key-enter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.8 0 auto;
+  position: relative;
+}
+
+.special-key-enter::after {
+  display: block;
+  content: "";
+  width: 7.6ch;
+  aspect-ratio: 1;
+  position: absolute;
+  top: calc(100% - 1px);
+  right: -1px;
+  height: 7.5ch;
+  background: #e0e0e0;
+  border: 1px solid #c0b1b1;
+  border-radius: 0.3em;
+  border-top: none;
+  border-top-left-radius: 0;
+  box-shadow: 0 0.1em 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.special-key-shift-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.2 0 auto;
+}
+
+.special-key-shift-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+}
+
+.special-key-space {
+  flex: 1 0 auto;
+  background: #fff;
+}
+.keyboard .row-special .key-special {
+  flex-grow: 0.1;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: auto;
+}
