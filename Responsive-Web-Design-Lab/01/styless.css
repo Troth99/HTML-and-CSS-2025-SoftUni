@@ -1,0 +1,27 @@
+@import url("./typography.css");
+@import url("./reset.css");
+
+body::before {
+  background-color: #369;
+  color: #fff;
+  padding: 1em 1.5em;
+  margin-bottom: 2em;
+  border-radius: 0.3em;
+}
+
+pre {
+  max-width: 100%;
+  background: #857d7d;
+  overflow: auto;
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@media (width < 800px) {
+  body::before {
+    display: flex;
+    content: "The page is being shown on a screen";
+  }
+}
