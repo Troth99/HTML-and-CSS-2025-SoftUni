@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEE;
+    padding: 2em;
+}
+html {
+    font-size: 20px;
+}
+
+table {
+    background: white;
+    max-width: 120ch;
+       width: 100%;
+    border: 1px solid #CCC;
+    margin-bottom: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   box-shadow: 0 0 1em 0 rgb(0, 0,0, 0.2);
+   overflow: hidden;
+   border-radius: 0.4em;
+}
+
+
+table th {
+    background: #EEE;
+}
+
+table tr td,
+table tr th {
+    padding: 1em;
+    border-bottom: 0.2px solid #CCC
+}
+table th,
+table td {
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+
+    table, thead, tbody, tr , td ,th {
+        display: block;
+    }
+  .header-row {
+    display: none;
+  }
+  .table-title {
+    display: table-cell !important;
+  }
+  .table-title h2 {
+    font-size: 1.3em;
+    margin: 0;
+    text-align: left;
+  }
+
+  table {
+    border: none;
+  }
+  table td {
+    display: flex;
+    flex-direction: row;
+ 
+  }
+  tbody tr td:first-child {
+    border-top: 2px solid black;
+  }
+table td::before {
+    display: block;
+    content: attr(data-title);
+    padding-right: 2em;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     flex: 1 1 0;  
+    max-width: 35%;
+    text-align: left;
+}
+}
