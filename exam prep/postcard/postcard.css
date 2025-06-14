@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #E0E0E0;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+     height: 100vh;
+     overflow-y: hidden;
+}
+
+html {
+    font-family: Gochi Hand, serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+section.section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #AAA;
+    background: #FFF;
+   
+    width: 1150px;
+    border-radius: 1em;
+    
+    .banner {
+        position: relative;
+        width: 100%;
+        padding: 1.8em 1.3em;
+       
+    }
+    .content {
+        background-color: #FFF;
+        position: absolute;
+        width: 102ch;
+        top: 76%;
+        left:50%;
+        padding: 1.2em 2em;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 1em;
+        max-width: 100%;
+        flex: 1 1 auto;
+
+        h2 {
+            margin-top: 0;
+            padding-bottom: 1em;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            color: #747673;
+           
+          
+        }
+        
+    }
+
+}
+
+
+.post {
+    background: #F9F9F9;
+    width: 100%;
+    padding: 2em 0; 
+    box-sizing: border-box;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+
+    *{
+        font-size: 25px;
+        padding-left: 3em;
+    }
+
+    h3 {
+        padding-bottom: 2em;
+    }
+    p {
+          color: #747673;
+          padding-bottom: 0.5em;
+    }
+    
+}
+.banner:after {
+     content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+   top: 100%;
+    height: 2px;
+    background: #b3aeae;
+    width: 100%;
+}
