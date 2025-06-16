@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Agbalumo&display=swap);
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding: 2em;
+     font-family: Agbalumo, sans-serif;
+    font-size: 16px;
+}
+img {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+section.section {
+    border: 3px solid black;
+    background: #D5EBEA;
+    width: 120ch
+   
+}
+
+.heading {
+    padding-top: 1.4em;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    .p-content{
+        display: flex;
+        justify-content: center;
+       
+        p{
+            padding-bottom: 0.3em;
+        }
+    }
+}
+
+.p-content::before {
+    position: absolute;
+    content: '';
+    background: black;
+    height: 3px;
+    width: 108ch;
+    left: 23%;
+}
+
+.heading::before{
+    position: absolute;
+    content: '';
+    background: black;
+    height: 5px;
+    width: 108ch;
+    top: 15%;
+    left: 23%;
+    
+}
+.content {
+    position: relative;
+    display: flex;
+    gap: 1em;
+    background: white;
+    padding: 2em 3em;
+    padding-bottom: 7em;
+}
+
+
+.image-section {
+    border-right: 3px solid black;
+     border-left: 3px solid black;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+    padding: 1em;
+    font-size: 0.7em;
+
+    img{
+        padding-bottom: 1.3em;
+    }
+    .text-title {
+        text-align: center;
+        font-size: 14px;
+    }
+    p {
+        font-size: 15px;
+    }
+
+}
+
+.text-content {
+    font-size: 1.3em;
+    
+
+    div {
+        padding-top: 1.3em;
+    }
+    .first-para {
+        padding-top: 2em;
+        padding-left: 2em;
+       
+    }
+}
+
+.aside {
+    font-size: 25px;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 0.4em 5em;
+}
+
+
+.information-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    
+    span {
+        font-weight: bold;
+        padding-right: 0.5em;
+    }
+}
