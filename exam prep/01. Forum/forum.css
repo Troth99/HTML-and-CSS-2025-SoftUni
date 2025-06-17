@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  display: flex;
+  justify-content: center;
+  font-family: Inter, serif;
+  padding: 5em;
+  gap: 2em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+section {
+  display: flex;
+  background: #fff;
+  width: 95ch;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+  .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+
+    p {
+      font-size: 22px;
+      opacity: 0.6;
+      width: 45ch;
+      padding-bottom: 2em;
+    }
+    h2 {
+        padding-bottom: 0.7em;
+    }
+  }
+}
+.section .inner .fa-solid {
+    padding-top: 0.6em;
+  font-size: 4rem;
+  padding-bottom: 0.5em;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .image {
+    width: 20ch;
+    height: 20ch;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.image-aside {
+  .image {
+    width: 10ch;
+    height: 10ch;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.aside .fa-solid{
+    padding-top: 0.5em;
+  font-size: 6rem;
+  padding-bottom: 0.5em;
+}
+.aside {
+    display: flex;
+    width: 50ch;
+    padding: 2em;
+
+    .inner-aside {
+        display: flex;
+        flex-direction: column;
+      
+        p {
+        
+            padding-top: 1em;
+            font-size: 22px;
+            opacity: 0.6;
+        }
+    }
+}
+
+.image-aside {
+    position: relative;
+    margin-top: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+.name-title{
+padding: 2em;
+ h4{
+    font-size: 2em;
+ }
+}
+.image-aside img {
+    filter: grayscale(100%);
+}
+
+.image-aside::before {
+    content: '';
+    height: 2px;
+    top: -20%;
+    width: 100%;
+    background: #EEE;
+    position: absolute;
+}
