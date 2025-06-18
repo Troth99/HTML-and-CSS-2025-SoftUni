@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1920ox;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.navigator {
+  width: 100%;
+  display: flex;
+  background-color: #d9d9d9;
+}
+
+.navigator ul li {
+  display: block;
+  text-decoration: none;
+}
+.navigator ul {
+  display: flex;
+  gap: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 4em;
+}
+.navigator a {
+  text-decoration: none;
+  color: black;
+}
+.navigator .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 4em;
+}
+
+.buy-btn {
+  background: #fff;
+  padding: 0.4em 0.8em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+}
+
+.banner {
+  width: 100%;
+  height: 755px;
+  display: flex;
+  min-height: auto;
+  position: relative;
+  background-image: url(images/background.jpg);
+  background-position: bottom;
+justify-content: center;
+}
+
+.banner .inner {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  position: absolute;
+
+  h2 {
+    width: 15ch;
+    font-size: 3rem;
+   padding-top: 4em;
+   padding-bottom: 7rem;
+  }
+
+  p {
+    font-size: 1.4em;
+    width: 49ch;
+    color: white;
+    padding-bottom: 2.5em ;
+  }
+  li {
+    list-style: none;
+    margin-left: 0;
+    width: 20%;
+  }
+a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 1em 2em; 
+}
+}
+
+.reviews {
+    width: 100%;
+
+    .inner {
+        display: flex;
+        padding: 3em;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        padding-right: 0;
+
+        h2 {
+            color: orangered;
+            font-size: 3em;
+            padding-bottom: 1.3em;
+            span {
+                padding-left: 0.3em;
+            }  
+        }
+        
+        h5 {
+            font-size: 1.2em;
+            opacity: 0.9;
+            font-weight: normal;
+            padding-bottom: 1em;
+        }
+
+        p {
+            opacity: 0.8;
+            width: 40ch;
+            
+        }
+    }
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9;
+    padding: 2.5em 8em;
+    position: relative;
+    gap: 2em;
+
+    .image {
+        width: 30%;
+        height: 40%;
+    }
+
+    .inner {
+        display: flex;
+        
+    }
+
+    .information {
+        padding: 1.5em;
+
+        .title-information {
+            opacity: 0.8;
+            padding-bottom: 2.5em;
+        }
+        h2 {
+            padding-bottom: 2em;
+        }
+        p {
+            opacity: 0.8;
+            width: 80ch;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer-content {
+            padding-top: 2.5em;
+        }
+    }
+}
+
+
+.plans {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5 ;
+
+    .inner {
+        padding: 2em;
+        background-color: #FFF;
+        display: flex;
+        height: 45vh;
+        gap: 2em;
+        .plans-infornation h2 {
+            padding: 1em;
+        }
+
+        .random {
+            width:45ch;
+            opacity: 0.8;
+            padding-right: 1em;
+        }
+    }
+}
+
+.plans-types-cheap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FF7C4C;
+   width: 40ch;
+   box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+   .money {
+    font-weight: none;
+    font-size: 3.5em;
+   }
+   p span {
+    font-weight: bold;
+    padding-right: 0.5em;
+   }
+
+   a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 0.6em 1.6em;
+    border-radius: 0.3em;
+   }
+
+}
+
+.plans-types {
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+   width: 40ch;
+   box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+   color: white;
+   .money {
+    font-weight: none;
+    font-size: 3.5em;
+   }
+      p span {
+    font-weight: bold;
+    padding-right: 0.5em;
+   }
+
+   a {
+    text-decoration: none;
+    background: #FFF;
+    color: black;
+    padding: 0.6em 1.6em;
+    border-radius: 0.3em;
+   }
+
+}
+
+.projects {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #D9D9D9;
+    padding: 3em;
+    width: 100%;
+}
