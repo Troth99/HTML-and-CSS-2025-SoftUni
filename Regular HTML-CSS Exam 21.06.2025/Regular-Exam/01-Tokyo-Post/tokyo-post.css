@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+body {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 593px;
+  margin: 0 auto;
+  font-family: "Comic Neue", sans-serif;
+  background-color: #f0f0f0;
+  line-height: 1.4;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  overflow: hidden;
+}
+
+.image-container {
+  background-color: #f0f0f0;
+}
+.image-container img {
+  height: 40vh;
+  width: 600px;
+  margin: 0 auto;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.post-container {
+    padding: 2em;
+
+}
+
+.post-title {
+    padding-top: 0.2em;
+    padding-bottom: 2em;
+}
+
+.post-title h4 {
+    opacity: 0.9;
+    font-size: 1.2em;
+}
+.post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 55ch;
+}
+
+.post-content p {
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+}
+
+.footer {
+    padding: 1em;
+}
+.footer ul {
+    display: flex;
+    gap: 0.1em;
+    padding-left: 1em;
+
+}
+
+.footer li {
+    display: block;
+}

@@ -1,0 +1,151 @@
+@media (width <= 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+      height: 100%;
+  }
+
+  .home-navbar-container {
+    font-size: 16px;
+    width: 100%;
+  }
+  .home-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+     flex-grow: 1; 
+  }
+  .home-cta-container {
+    padding-left: 1rem;
+  }
+  .home-cta-btn {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 0.8rem;
+    width: 16ch;
+  }
+
+  .home-hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+  }
+  .home-hero-text-container {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .home-heading,
+  .home-text,
+  .home-hero-text-container,
+  .home-container {
+    margin: 0;
+  }
+  .home-image1 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
+  .home-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 2.6rem;
+  }
+  .home-text {
+    width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  .home-cta-btn2 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 0.9em 0.5em;
+  }
+
+  .home-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .home-heading-container {
+    width: 95vw; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 0 1rem;
+  }
+   .home-feature-card img {
+    width: 80%;
+   }
+     .home-feature-card1 img {
+    width: 80%;
+   }
+     .home-feature-card2 img {
+    width: 80%;
+   }
+  .home-feature-card {
+    padding: 1em;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .home-feature-card1 {
+     padding: 1em;
+     padding-bottom: 0;
+    width: 100%;
+  }
+  .home-feature-card2 {
+     padding: 1em;
+     padding-bottom: 0;
+    width: 100%;
+  }
+  .home-feature-card span,
+  .home-feature-card1 span,
+  .home-feature-card2 span {
+    display: block;
+    max-width: 100%; 
+    margin: 0 auto 1rem auto; 
+
+  }
+  .home-image2,
+  .home-image3,
+  .home-image4 {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .home-features {
+      height: auto;
+    }
+    
+    .home-stats {
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+        margin: 0;
+    }
+    .home-text12 {
+        width: 100%;
+       
+    }
+    .home-text25 {
+        margin-bottom: 2rem;
+    }
+}
